@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::navigation"></header>
+<main>
+    <div class="container bg-blur rounded mt-5 ">
+        <h1>Welcome to Puzzle Shop</h1>
+        <hr class="my-3 bg-white w-50"/>
+        <p class="h4">A puzzle is a game, problem, or toy that tests a person's ingenuity or knowledge.
+            In a puzzle, the solver is expected to put pieces together (or take them apart) in a logical way,
+            in order to arrive at the correct or fun solution of the puzzle.</p>
+        <hr class="my-3 bg-white w-75"/>
+        <h3>
+            <a class="text-primary" href="/users/login">Login</a>
+            if you have an account or
+            <a class="text-primary" href="/users/register">Register</a>
+            now and check our deals.
+        </h3>
+    </div>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>
